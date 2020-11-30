@@ -1,0 +1,1 @@
+This is a coding project from The Odin Project. I have used simple CSS and HTML to create a Youtube look alike. The website is currently non-responsive.

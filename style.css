@@ -1,0 +1,243 @@
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+ul{  /* Unorderd list containing only the menu icon and Youtube logo*/
+    margin:0;
+    padding: 0;
+    overflow: hidden;         
+    width: 25%;
+    float: left;
+   
+}
+
+
+li img{
+
+    display: block;
+    
+}
+
+.youtube_logo{
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.menu_icon{
+    padding-top: 35px;
+}
+
+/* aligning the search bar with the menu icon and Youtube log*/
+form{
+
+    padding-top: 2px;
+    width: 80%;
+    
+    
+       
+}
+
+/* styling the search bar */
+form.search_bar input[type=text]{
+    padding: 20px;
+    width: 40%;
+    height: 1px;
+    float: left;
+    border-right: none;
+    margin-top: 20px;
+    border-color: gray;
+    
+    
+    
+    }
+
+    /*styling the search icon*/
+form.search_bar button {
+    
+    width: 8%;
+    height:45px;
+    cursor: pointer;
+    border-left: none;
+    float: left;
+    margin-top: 20px;
+    border-color: gray;
+    
+}
+
+
+
+.right_list{
+    padding-left: 100px;
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    
+    
+}
+
+.right_list li a{
+    padding: 20px
+}
+
+.my_photo {
+    border-radius: 100%;
+    width: 30px;
+    margin-top: 30px;
+}
+
+
+
+main{
+    background-color: rgb(211, 211, 211);
+    margin-top: 5px;
+    width: 65%;
+    float: left;
+    
+}
+
+.main_video{
+    margin-left: 5%;
+    padding-top: 15px;
+    
+}
+
+
+
+.thumbs span{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.thumbs {
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    margin-right: 50px;
+}
+
+.profile{
+    
+    width: 50px;
+    float: left;
+    padding-right: 10px;
+    
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+  
+    
+}
+
+.text .show_more{
+    font-weight: bold;
+    color: gray;
+}
+
+.text p:first-child{
+    line-height: 1.6;
+}
+
+.sub{
+    color: grey;
+    font-size: 14px;
+}
+
+aside{
+    background-color:  rgb(211, 211, 211);
+    width: 35%;
+    float: left;
+    margin-top: 5px;
+    
+}
+
+.aside_content{
+
+    padding-left: 15px;
+    height: 60%;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont1 p{
+    padding-left: 10px;
+}
+
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cont2 p{
+    padding-left: 10px;
+}
+
+.cont3{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.cont3 p{
+    padding-left: 10px;
+}
+
+.cont4{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont4 p{
+    padding-left: 10px;
+}
+
+.cont5{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.cont5 p{
+    padding-left: 10px;
+}
+
+.cont6{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+
+.cont6 p{
+    padding-left: 10px;
+}
+
+.cont7{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.cont7 p{
+    padding-left:10px;
+}
